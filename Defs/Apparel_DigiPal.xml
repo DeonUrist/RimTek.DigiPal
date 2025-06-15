@@ -4,19 +4,19 @@
   <ThingDef ParentName="ApparelBase">
     <defName>Apparel_DigiPal</defName>
     <label>RimTek DigiPal</label>
-    <description>A belt-worn personal computer.</description>
+    <description>A belt-worn personal computer.\nIt assists the wearer's aiming, and allows them to play games to entertain themselves.\n\n&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;\n\nEntertainment type: Cerebral play\n+5 mood boost for 6 hours.\n\nRight-click the pawn to force DigiPal playing, or let it decide to do it automatically when Recreation need is low.</description>
     <thingClass>Apparel</thingClass>
     <graphicData>
       <texPath>Things/Item/Equipment/DigiPal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tickerType>Normal</tickerType>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Industrial</techLevel>
     <statBases>
-      <Mass>3</Mass>
-      <WorkToMake>14000</WorkToMake>
+      <Mass>1.5</Mass>
+      <WorkToMake>10000</WorkToMake>
       <Flammability>0.4</Flammability>
-      <EquipDelay>2</EquipDelay>
+      <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MeleeHitChance>2</MeleeHitChance>
@@ -27,8 +27,8 @@
     </thingSetMakerTags>
     <costList>
       <ComponentIndustrial>2</ComponentIndustrial>
-      <Steel>50</Steel>
-      <Plasteel>20</Plasteel>
+      <Steel>30</Steel>
+      <Plasteel>10</Plasteel>
     </costList>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
@@ -42,7 +42,7 @@
       </recipeUsers>
       <useIngredientsForColor>false</useIngredientsForColor>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
       <displayPriority>300</displayPriority>
     </recipeMaker>
