@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <JoyGiverDef>
+    <defName>PlayDigiPal</defName>
+    <giverClass>RimTek.JoyGiver_PlayDigiPal</giverClass>
+    <baseChance>1</baseChance>
+    <jobDef>Joy_PlayDigiPal</jobDef>
+    <joyKind>Gaming_Cerebral</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>
